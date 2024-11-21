@@ -3,12 +3,14 @@
     xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd">
+
     <persistence-unit-metadata>
         <xml-mapping-metadata-complete />
         <persistence-unit-defaults>
             <delimited-identifiers />
         </persistence-unit-defaults>
     </persistence-unit-metadata>
+
     <entity class="com.manning.javapersistence.ch03.metadataxmljpa.Item"
         access="FIELD">
         <attributes>
