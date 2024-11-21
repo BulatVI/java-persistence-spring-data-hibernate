@@ -6,12 +6,9 @@ import javax.validation.constraints.Size;
 import java.util.Date;
 
 public class Item {
+
     @NotNull
-    @Size(
-            min = 2,
-            max = 255,
-            message = "Name is required, maximum 255 characters."
-    )
+    @Size(min = 2, max = 255, message = "Name is required, maximum 255 characters.")
     private String name;
 
     @Future
